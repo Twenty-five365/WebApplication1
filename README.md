@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教育技术学 - 连接教育与技术的桥梁</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            line-height: 1.8;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: "✓";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>教育技术学专业</h1>
+        <p>融合教育理念与信息技术，赋能未来教学</p>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#intro">专业介绍</a>
+            <a href="#courses">核心课程</a>
+            <a href="#career">就业方向</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="intro">
+            <h2>专业介绍</h2>
+            <p>教育技术学是教育学与信息技术交叉融合的学科，旨在研究如何运用现代信息技术优化教学过程、提升教学效率。</p>
+            <p>本专业培养具备教育理念、教学设计能力与技术应用能力的复合型人才，能够在各类教育机构、企事业单位从事教学资源开发、教育信息化建设、在线课程设计等工作。</p>
+        </section>
+
+        <section id="courses">
+            <h2>核心课程</h2>
+            <ul>
+                <li>教育技术学导论</li>
+                <li>教学设计原理与实践</li>
+                <li>多媒体课件制作</li>
+                <li>教育影视节目制作</li>
+                <li>在线教育平台开发</li>
+                <li>教育大数据分析</li>
+                <li>人工智能教育应用</li>
+            </ul>
+        </section>
+
+        <section id="career">
+            <h2>就业方向</h2>
+            <ul>
+                <li><strong>信息技术教师</strong>：在中小学、职业院校承担信息技术课程教学与信息化教学指导工作</li>
+                <li><strong>教育资源设计师</strong>：为教育公司、出版社设计开发微课、课件、在线课程等教学资源</li>
+                <li><strong>教育信息化工程师</strong>：负责学校、教育机构的智慧校园建设、教育平台运维与管理</li>
+                <li><strong>教育产品经理</strong>：参与教育类APP、学习软件的需求分析与产品设计</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>教育技术学专业学习平台 &copy; 2025</p>
+    </footer>
+</body>
+</html>
